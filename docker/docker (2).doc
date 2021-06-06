@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+ <style>
+        p {
+          border: 200px solid powderblue;
+              padding: 300px;
+}
+</style>
+        
+<body>
+       <div class="box">
+           <h1>Personal Details</h1>
+           
+          <form>
+             <label>First name</label>
+             <input type="text" placeholder="First name">
+             <label>Last name</label>
+             <input type="text" placeholder="Last name"><br>
+             <label>Field 3</label>
+             <input type="text" placeholder="Field 3">
+             <label>Field 4</label>
+             <input type="text" placeholder="Field 4"><br>
+
+         <div class="box">
+           <h2>Account  Details</h2>
+          
+          <form>
+                <label>Field 5</label>
+                <input type="text" placeholder="Field 5">
+                <label>Field 6</label>
+                <input type="text" placeholder="Field 6"><br>
+                <label>Storage Medium</label>
+              
+               <select name>
+                     <option value=""></option>
+                     <option value=" first name"> first name</option>
+                     <option value="last name">last name</option>
+                     <option value="account details">account details</option>  
+                     
+               </select><br>
+                  
+           
+        <br>
+                     
+                            
+                
+                   <input type="submit" value="Submit">
+                     </button>                               
+
+
+           
+          </form>
+               </div>
+</head>
+</body>
+</html>
